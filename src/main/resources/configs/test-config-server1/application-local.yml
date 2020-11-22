@@ -1,0 +1,3 @@
+application: test-config-server1
+enviroment:
+  status: local

@@ -1,5 +1,5 @@
 server:
-  port: 21210
+  port: 20000
 
 spring:
   application:
@@ -10,3 +10,4 @@ spring:
       server:
         git:
           uri: https://github.com/sesanp4/common-config-server.git
+          search-paths: '/src/main/resources/configs/{application}'
