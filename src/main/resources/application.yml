@@ -1,0 +1,7 @@
+server:
+  port: 21210
+
+spring:
+  application:
+    name:
+      common-config-server
