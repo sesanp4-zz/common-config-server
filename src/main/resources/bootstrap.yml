@@ -11,5 +11,4 @@ spring:
       server:
         git:
           uri: https://github.com/sesanp4/common-config-server.git
-          search-paths: '/src/main/resources/configs/test-config-server'
-          clone-on-start: true
+          search-paths: '/src/main/resources/configs/{application}'
